@@ -1,0 +1,34 @@
+{
+    "name": "microbx-cli-core",
+    "description": "Microbx CLI Core",
+    "version": "0.0.2",
+    "author": "Christopher Dowell <cbdowell@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "GraphQL",
+        "Microbx",
+        "CLI"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/microbx/microbx-cli/tree/master/packages/core"
+    },
+    "bugs": {
+        "url": "https://github.com/microbx/microbx-cli/issues"
+    },
+    "homepage": "https://github.com/microbx/microbx-cli#readme",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "typescript": {
+        "definition": "dist/index.d.ts"
+    },
+    "scripts": {
+        "compile": "tsc",
+        "watch": "tsc -w",
+        "prepublish": "npm run compile"
+    },
+    "devDependencies": {
+        "@types/node": "^10.3.0",
+        "typescript": "^2.9.1"
+    }
+}
