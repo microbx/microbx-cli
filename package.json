@@ -1,10 +1,9 @@
 {
     "private": true,
     "name": "microbx-cli",
+    "description": "Microbx CLI Monorepo",
     "license": "MIT",
-    "workspaces": [
-        "packages/*"
-    ],
+    "workspaces": ["packages/*"],
     "devDependencies": {
         "lerna": "^2.11.0"
     }
