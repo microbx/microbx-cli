@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "name": "microbx-cli",
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "lerna": "^2.11.0"
+    }
+}
